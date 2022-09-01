@@ -1,6 +1,8 @@
+---
 layout: post
 title: Version Control Skill Competencies
 date: 2022-09-01
+---
 
 Create, rename and delete files and folders on your hard drive using Unix commands
 Use pipes and redirection
