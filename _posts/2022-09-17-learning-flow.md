@@ -8,11 +8,11 @@
 |Sept|objects|Formatting outputs: old/new format, f strings|
 |Sept|arrays|Equality vs identity|
 |Sept|functions|And takes precedence over Or|
-|Sept|common built-in methods on built-in objects|
-|Sept|try, catch, throw, and defensive programming|
-|Sept|undefined, null, and empty strings|
-|Sept|functional programming|
-|Sept|object oriented programming|
+|Sept|common built-in methods on built-in objects|List|
+|Sept|try, catch, throw, and defensive programming|Tuple|
+|Sept|undefined, null, and empty strings|Range|
+|Sept|functional programming|String|
+|Sept|object oriented programming|Dictionary|
 |Sept|how scope works|
 |Sept|var, let, and const|
 |Sept|classes and inheritance in OOP|
