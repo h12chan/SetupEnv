@@ -1,10 +1,10 @@
 ### Learning Flow
 |Date|JavaScript|Python|Programming|HTML, CSS|React|
 |----|----------|------|-----------|---------|-----|
-|Sept|common operators|Syntax|Abstraction|
-|Sept|conditional statements|Code blocks and indentation|Encapsulation|
-|Sept|loops|Basic data types|Inheritance|
-|Sept|variables|Basic operators: BEDMAS|Polymorphism|
+|Sept|common operators|Syntax|Abstraction|doctype, tags|
+|Sept|conditional statements|Code blocks and indentation|Encapsulation|CSS selectors, properties|
+|Sept|loops|Basic data types|Inheritance|DOM|
+|Sept|variables|Basic operators: BEDMAS|Polymorphism|layouts|
 |Sept|objects|Formatting outputs: old/new format, f strings|
 |Sept|arrays|Equality vs identity|
 |Sept|functions|And takes precedence over Or|
