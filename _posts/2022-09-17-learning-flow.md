@@ -5,7 +5,7 @@
 |Sept|conditional statements|Code blocks and indentation|Encapsulation|CSS selectors, properties|
 |Sept|loops|Basic data types|Inheritance|DOM|
 |Sept|variables|Basic operators: BEDMAS|Polymorphism|layouts|
-|Sept|objects|Formatting outputs: old/new format, f strings|
+|Sept|objects|Formatting outputs: old/new format, f strings|Pass by Value, Pass by Reference|
 |Sept|arrays|Equality vs identity|
 |Sept|functions|And takes precedence over Or|
 |Sept|common built-in methods on built-in objects|List|
