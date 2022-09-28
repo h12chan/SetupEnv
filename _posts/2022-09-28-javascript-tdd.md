@@ -27,4 +27,4 @@ describe('My Stack', () => {
   it.todo('can pop off');
 })
 
-// continue at 7:45 with this video: 
+// continue at 7:45 with this video: https://www.youtube.com/watch?v=Jv2uxzhPFl4
