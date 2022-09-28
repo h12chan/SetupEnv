@@ -13,9 +13,9 @@
 |Sept|undefined, null, and empty strings|Range|
 |Sept|functional programming|String|
 |Sept|object oriented programming|Dictionary|
-|Sept|how scope works|
-|Sept|var, let, and const|
-|Sept|classes and inheritance in OOP|
+|Sept|how scope works|Conditionals|
+|Sept|var, let, and const|Iterations|
+|Sept|classes and inheritance in OOP|Pass, break and continue statements|
 |Sept|spread, rest, template strings and modules|
 |Sept|DOM manipulation and event handling|
 |Sept|JSON|
