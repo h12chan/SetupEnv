@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Setup-Git
-parent: Version-Control
+parent: Version Control
 nav_order: 1
 ---
