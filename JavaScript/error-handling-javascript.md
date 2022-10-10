@@ -12,7 +12,7 @@ if(isNaN(num) == true) {
 	console.log("Enter a valid number!")
 } else {
 	console.log(`It is of type ${typeof(num)}`)
-  console.log(`You entered: ${num}`)
+	console.log(`You entered: ${num}`)
 }
 ```
 
@@ -25,15 +25,15 @@ In the following example, we can see how the error is thrown and caught.  The fi
 function aNum() {
 	// const num = 10
 	if (typeof(num) == 'undefined') {
-    throw new ReferenceError('This is an error')
-  }
+    	throw new ReferenceError('This is an error')
+  	}
 }
 
 try {
 	const result = aNum()
 } catch(e) {
 	console.log(e.name, e.message) // "ReferenceError", "This is an error"
-  console.log("Declare the variable!") // "Declare the variable!"
+	console.log("Declare the variable!") // "Declare the variable!"
 } finally {
 	console.log("Programming takes patience and practice.") // "Programming takes patience and practice."
 }
