@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Try Catch Finally
+title: Error Handling
 parent: JavaScript
 nav_order: 3
 ---
+## Defensive Programming
+
 ## Try Catch Finally
 There are times when error(s) will occur and it is useful to handle the error with the appropriate message and prompt if necessary.
 Luckily, this can be implemented with the try-catch-finally block.  While the finally block is optional, the try-catch is mandatory.
