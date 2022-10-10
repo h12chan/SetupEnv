@@ -5,6 +5,16 @@ parent: JavaScript
 nav_order: 3
 ---
 ## Defensive Programming
+When you program, it is sometimes important to prepare for inadvertent usage of the program by practicing defensive programming.  For example, if you require input from the user, make sure to add defensive programming logic such as checking whether the input is the type that should be entered.  Otherwise, the program may return with a runtime error when it processes the input. The brief example below illustrates a simple defensive programming logic.
+```javascript
+const num = Number(prompt("Enter a number:"))
+if(isNaN(num) == true) {
+	console.log("Enter a valid number!")
+} else {
+	console.log(`It is of type ${typeof(num)}`)
+  console.log(`You entered: ${num}`)
+}
+```
 
 ## Try Catch Finally
 There are times when error(s) will occur and it is useful to handle the error with the appropriate message and prompt if necessary.
