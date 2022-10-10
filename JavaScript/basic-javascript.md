@@ -21,7 +21,7 @@ function addAll() {
     return total
 }
 const x = addAll(5, 5000, 500, 50)
-console.log(x)
+console.log(x) // 5555
 
 // https://www.w3schools.com/js/js_function_parameters.asp
 ```
