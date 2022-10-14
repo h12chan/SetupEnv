@@ -101,6 +101,11 @@ if "b" in letters:
 # Lists can be concatenated and multiplied
 print([1,2,3] + [4,5,6]) # 1,2,3,4,5,6
 print(letters * 4) # ['a','b','c','d','a','b','c','d','a','b','c','d','a','b','c','d']
+
+# Add to a list
+lst = [1,2]
+lst.append(3)
+print(lst)
 ```
 
 ### Remove an Item From a List
@@ -156,6 +161,10 @@ dict.clear() # clear the entire dictionary
 dict = {'Name':'John', 'age':20, 'occupation':'carpenter'}
 print(len(dict)) # 3
 print('age' not in dict) # False
+
+# Update key-value pair
+dict.update({'age':25}) # Method 1
+dict['age'] = 30 # Method 2
 
 # Looping dictionary keys
 for x in dict:
