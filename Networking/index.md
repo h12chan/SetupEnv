@@ -4,7 +4,8 @@ title: Networking
 nav_order: 5
 has_children: true
 ---
-## TCP\/IP 5-Layer Model
+
+## TCP/IP 5-Layer Model
 
 | Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
 | :---- | :--------- | :------- | :----------------- | :--------- |
