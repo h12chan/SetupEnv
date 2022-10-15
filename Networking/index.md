@@ -19,5 +19,9 @@ has_children: true
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 1 | Physical Layer | 10 Base T, 802.11 | bits | n/a |
 
+| col 1 |
+| ----- |
+| text  |
+
 ## Subnetting
 ## Routing
