@@ -5,6 +5,7 @@ nav_order: 5
 has_children: true
 ---
 ## TCP/IP 5-Layer Model
+
 | Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 5 | Application Layer | HTTP, SMTP, etc. | Messages | n/a |
@@ -15,13 +16,11 @@ has_children: true
 
 
 ## Layer 1 - Physical Layer
+
 | Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 1 | Physical Layer | 10 Base T, 802.11 | bits | n/a |
 
-| col 1 |
-| ----- |
-| text  |
 
 ## Subnetting
 ## Routing
