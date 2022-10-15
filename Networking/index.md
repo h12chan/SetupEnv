@@ -21,6 +21,29 @@ has_children: true
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 1 | Physical Layer | 10 Base T, 802.11 | bits | n/a |
 
+## Layer 2 - Data-Link Layer
+
+| Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
+| :---- | :--------- | :------- | :----------------- | :--------- |
+| Layer 2 | Data-Link Layer | Ethernet, Wi-Fi | Frames | MAC Address |
+
+## Layer 3 - Network Layer
+
+| Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
+| :---- | :--------- | :------- | :----------------- | :--------- |
+| Layer 3 | Network Layer | IP | Datagram | IP Address |
+
+## Layer 4 - Transport Layer
+
+| Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
+| :---- | :--------- | :------- | :----------------- | :--------- |
+| Layer 4 | Transport Layer | TCP/UDP | Segment | Port #s |
+
+## Layer 5 - Application Layer
+
+| Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
+| :---- | :--------- | :------- | :----------------- | :--------- |
+| Layer 5 | Application Layer | HTTP, SMTP, etc. | Messages | n/a |
 
 ## Subnetting
 ## Routing
