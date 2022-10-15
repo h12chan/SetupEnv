@@ -46,5 +46,12 @@ has_children: true
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 5 | Application Layer | HTTP, SMTP, etc. | Messages | n/a |
 
+## Non-Routable Address Space
+
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+Non-Routable Address space is reserved for personal network assignment and cannot be accessed on the Internet.
+
 ## Subnetting
 ## Routing
