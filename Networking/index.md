@@ -6,7 +6,7 @@ has_children: true
 ---
 ## TCP/IP 5-Layer Model
 | Layer | Layer Name | Protocol | Protocol Data Unit | Addressing |
-|:----|:---------|:-------|:-----------------|:---------|
+| :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 5 | Application Layer | HTTP, SMTP, etc. | Messages | n/a |
 | Layer 4 | Transport Layer | TCP/UDP | Segment | Port #s |
 | Layer 3 | Network Layer | IP | Datagram | IP Address |
