@@ -52,7 +52,7 @@ has_children: true
 - 172.16.0.0/12
 - 192.168.0.0/16
 
-Non-Routable Address space is reserved for personal network assignment and cannot be accessed on the Internet.
+Non-Routable Address space is reserved for personal network assignment and cannot be accessed on the Internet.  The Network Address Translation (NAT) can assign these non-routable address space in a network such that it can be represented by a single IP address.  It alleviates IPv4 exhaustion.
 
 ## Subnetting
 ## Routing
