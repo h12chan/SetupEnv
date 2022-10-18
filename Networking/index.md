@@ -30,11 +30,13 @@ The physical layer represents the hardware that connect devices on the network. 
 | :---- | :--------- | :------- | :----------------- | :--------- |
 | Layer 2 | Data-Link Layer | Ethernet, Wi-Fi | Frames | MAC Address |
 
-The data-link layer is responsible for definition of a common way to interpret the bits that travel the physical layer such that devices on the network can communicate with each other.
+The data-link layer is responsible for definition of a common way to interpret the bits that travel the physical layer such that devices on the network can communicate with each other.  A data packet is an encompassing term meaning any single set of binary bits sent across a network or link.
 
 The Ethernet protocol (standard) is responsible for getting data to network devices on the same network or connection.  It solves the collision domain with a technique called carrier sense multiple access with collision detection (CSMA/CD) - determines when the communication channels are clear and free to transmit data.
 
-A MAC (Media Access Control) address is a globally unique identifier (48-bit number of 6 groups/octets of 2 hexadecimal numbers) attached on a network interface.
+A MAC (Media Access Control) address is a globally unique identifier (48-bit number of 6 groups/octets of 2 hexadecimal numbers) attached on a network interface.  
+
+An Ethernet frame is a highly structured collection of information presented in a specific order. Almost all fields are mandatory and are of fixed size.
 
 ## Layer 3 - Network Layer
 
@@ -43,6 +45,12 @@ A MAC (Media Access Control) address is a globally unique identifier (48-bit num
 | Layer 3 | Network Layer | IP | Datagram | IP Address |
 
 The network layer use router devices to communicate inbetween different networks.  The routers use the Internet Protocol (IP) to route packets across networks - it is central to the Internet.  The Internet is the most famous collection of networks connected together by routers.
+
+IP addresses are 32 bit numbers in 4 octets - dotted decimal notation.  Each octet can represent numbers from 0 to 255, represented by 8 bits.  IP addresses belong to networks, and not the devices that connects to these networks.  IP addresses can by dynamic or static.  Dynamic IP addresses are assigned by a Dynamic Host Configuration Protocol (DHCP) automatically whereas static IPs are configured manually.  
+
+The packet at the Network layer is called an IP datagram.  It is separated into the IP Header and Payload.  The entire IP datagram is enclosed in the payload of the data-link layer Ethernet frame.  And the transport layer TCP or UDP segment is entirely enclosed in the payload of the IP datagram.  Finally, the application layer protocol's message is enclosed in the payload of the TCP segment.
+
+Address Resolution Protocol (ARP) is used to discover the hardware address of a node with a certain IP address.  Common network devices contain an ARP table which is a list of IP addresses and the MAC address associated with it.  When discovery of a MAC address is required, an ARP broadcast is sent over the local network in which it awaits for an ARP response with the MAC address. ARP table expires a short amount of time to ensure current updates of the network.
 
 ## Layer 4 - Transport Layer
 
