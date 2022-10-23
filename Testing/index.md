@@ -9,6 +9,12 @@ has_children: true
 
 ## Test Driven Development
 
+## Integration Testing
+
+## End-to-End Testing
+
+## Front-End Testing
+
 ## Console (Web API)
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Console_API
