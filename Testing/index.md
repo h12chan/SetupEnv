@@ -7,7 +7,7 @@ has_children: true
 
 ## Unit Testing with Jest
 
-## Test Driven Development
+## Test Driven Development in JavaScript
 
 ## Integration Testing
 
