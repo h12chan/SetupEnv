@@ -14,3 +14,6 @@ has_children: true
 
 ## Tools & Automation
 - maybe learn how to write a CLI and/or do js/python automation with scripts
+
+## Sales Portfolio
+- simple but representative examples that can be customized

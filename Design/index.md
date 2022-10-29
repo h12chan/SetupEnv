@@ -16,7 +16,7 @@ has_children: true
 
 ## Design Management - Components
 
-## Design Layouts
+## Design Layouts (UX)
 
 ## Design Components
 
