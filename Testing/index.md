@@ -19,6 +19,7 @@ setInterval(() => {
   day += 1;
   console.log({name, where, comment, isSunshine, day})
 }, 1000);
+// https://www.youtube.com/shorts/BZGUgRQZyXw
 ```
 
 ## Unit Testing with Jest
