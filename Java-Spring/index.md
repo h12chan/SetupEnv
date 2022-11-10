@@ -7,4 +7,6 @@ has_children: true
 
 ## Basics of Java
 
+## Practice Clean Code with Java
+
 ## Spring Framework
