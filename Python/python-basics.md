@@ -183,3 +183,15 @@ sorted = sorted(dict.keys())
 ```
 
 ## continued with module 3
+
+## Uncertain Number of Parameters
+When there is an uncertain number of parameters that a function takes, you can use the \*args (or any other name in place of args) method to fetch the list of parameters.
+```python
+def average(*args):
+    avg = sum(args) / len(args)
+    print(avg)
+average(3, 8, 9, 2)
+average(20, 40)
+average(80, 2, 39)
+# https://www.youtube.com/shorts/kdKvZsSNCMM
+```
